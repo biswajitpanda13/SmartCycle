@@ -76,7 +76,7 @@ const Login = () => {
                   type="email"
                   required
                   className="focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 sm:text-sm border-gray-300 dark:border-gray-600 rounded-lg py-3 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white border outline-none transition-colors"
-                  placeholder="student@gmail.com"
+                  placeholder="you@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
