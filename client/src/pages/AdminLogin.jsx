@@ -106,7 +106,7 @@ const AdminLogin = () => {
                   type="email"
                   required
                   autoComplete="email"
-                  placeholder="admin@gmail.com"
+                  placeholder="admin@smartcycle.edu"
                   value={email}
                   onChange={e => setEmail(e.target.value)}
                   className="w-full pl-11 pr-4 py-3 bg-gray-800 border border-gray-600 rounded-xl text-white placeholder-gray-500 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
@@ -160,11 +160,10 @@ const AdminLogin = () => {
             </button>
           </form>
 
-          {/* Hint box */}
           <div className="mt-6 p-4 bg-gray-800/60 border border-gray-700 rounded-xl">
             <p className="text-xs text-gray-400 font-semibold uppercase tracking-wider mb-2">Default Credentials</p>
             <div className="space-y-1">
-              <p className="text-xs text-gray-300 font-mono">📧 admin@gmail.com</p>
+              <p className="text-xs text-gray-300 font-mono">📧 admin@smartcycle.edu</p>
               <p className="text-xs text-gray-300 font-mono">🔑 Admin@1234</p>
             </div>
           </div>
